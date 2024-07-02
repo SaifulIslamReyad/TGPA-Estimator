@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom TGPA Estimator</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="custom_estimator.css">
+    <link rel="stylesheet" href="calc.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Custom TGPA Estimator <p>(Based on your expected marks for each subject)</p> </h1>
+        <form id="customCgpaForm">
+            
+            <!-- ////////////////// -->
+            <button id="addSub" type="button" onclick="addSubjectField()">Add Subject</button>
+        </form>
+        <button id="customCalcu" type="button">CALCULATE TGPA</button>
+        <div id="result"></div>
+        <a href="Q.html" class="help-icon" title="How it works?">
+            <i class="fas fa-question-circle"></i>
+        </a>
+    </div>
+    <script src="custom_estimator.js"></script>
+    <script src="calc.js"></script>
+
+</body>
+</html>

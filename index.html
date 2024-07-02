@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TGPA Calculator</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Your Term GPA Estimator <p>(Based on your expected marks for each subject)</p> </h1>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="dropdown">
+            <label for="university">Select University:</label>
+            <select id="university">
+                <option value="KhulnaUniversity">Khulna University</option>
+                
+            </select>
+        </div>
+        <div class="dropdown">
+            <label for="department">Select Discipline:</label>
+            <select id="department">
+                <option value="ComputerScienceandEngineering">Computer Science and Engineering</option>
+                <option value="ElectricalandElectronicEngineering">Electrical and Electronic Engineering</option>
+                
+            </select>
+        </div>
+        <div class="dropdown">
+            <label for="term">Select Term:</label>
+            <select id="term">
+                <option value="FirstyearFirstterm">First year First term</option>
+                <option value="FirstyearSecondterm">First year Second term</option>
+                <option value="SecondyearFirstterm">Second year First term</option>
+                <option value="SecondyearSecondterm">Second year Second term</option>
+                <option value="ThirdyearFirstterm">Third year First term</option>
+                <option value="ThirdyearSecondterm">Third year Second term</option>
+                <option value="FourthyearFirstterm">Fourth year First term</option>
+                <option value="FourthyearSecondterm">Fourth year Second term</option>
+            </select>
+        </div>
+        <button id="redirectBtn">Go to Calculator</button>
+        <a href="Q.html" class="help-icon" title="How it works?">
+            <i class="fas fa-question-circle"></i>
+        </a>
+        <p class="custom-link">
+            <a href="custom_estimator.html">IF YOUR DISCIPLINE OR TERM ISN'T LISTED, CREATE YOUR CUSTOM ESTIMATOR HERE</a>
+        </p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

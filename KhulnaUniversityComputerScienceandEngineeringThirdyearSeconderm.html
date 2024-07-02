@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TGPA Calculator</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Your Term GPA Estimator <p>(Based on your expected marks for each subject)</p> </h1>
+        <form id="cgpaForm">
+            <div class="subject">
+                <label for="mark1">Artificial Intelligence<p class="credit"> Credit <span class="num"> 3.00 </span> </p>
+                </label>
+                <input type="number" placeholder="Your estimated marks" id="mark1" required>
+            </div>
+            <div class="subject">
+                <label for="mark2">Artificial Intelligence Laboratory<p class="credit"> Credit <span class="num"> 1.00 </span> </p>
+                </label>
+                <input type="number" placeholder="Your estimated marks" id="mark2" required>
+            </div>
+            <div class="subject">
+                <label for="mark3">Technical Writing and Presentation <p class="credit"> Credit <span class="num"> 1.00 </span>
+                    </p> </label>
+                <input type="number" placeholder="Your estimated marks" id="mark3" required>
+            </div>
+            <div class="subject">
+                <label for="mark4">Electrical Drives and Instrumentation <p class="credit"> Credit <span class="num"> 3.00 </span> </p>
+                </label>
+                <input type="number" placeholder="Your estimated marks" id="mark4" required>
+            </div>
+            <div class="subject">
+                <label for="mark5">Electrical Drives and Instrumentation Laboratory <p class="credit"> Credit <span class="num"> 1.00 </span> </p> </label>
+                <input type="number" placeholder="Your estimated marks" id="mark5" required>
+            </div>
+            <div class="subject">
+                <label for="mark6">Accounting <p class="credit"> Credit <span class="num"> 2.00 </span> </p> </label>
+                <input type="number" placeholder="Your estimated marks" id="mark6" required>
+            </div>
+            <div class="subject">
+                <label for="mark7">Cyber and Intellectual Property Law <p class="credit"> Credit <span class="num"> 2.00 </span> </p> </label>
+                <input type="number" placeholder="Your estimated marks" id="mark7" required>
+            </div>
+            <div class="subject">
+                <label for="mark8">Engineering Ethics and Environment Protection <p class="credit"> Credit <span class="num"> 2.00 </span> </p> </label>
+                <input type="number" placeholder="Your estimated marks" id="mark8" required>
+            </div>
+            <div class="subject">
+                <label for="mark9">Optional I <p class="credit"> Credit <span class="num"> 3.00 </span> </p> </label>
+                <input type="number" placeholder="Your estimated marks" id="mark9" required>
+            </div>
+            <div class="subject">
+                <label for="mark10">Optional I Sessional <p class="credit"> Credit <span class="num"> 1.00 </span> </p>
+                </label>
+                <input type="number" placeholder="Your estimated marks" id="mark10" required>
+            </div>
+            <button id="calcu" type="button">CALCULATE TGPA</button>
+        </form>
+        <div id="result"></div>
+        <a href="Q.html" class="help-icon" title="How it works?">
+            <i class="fas fa-question-circle"></i>
+        </a>
+    </div>
+    <a href="Q.html" class="help-icon" title="How it works?">
+        <i class="fas fa-question-circle"></i>
+    </a>
+    <script src="script.js"></script>
+    <script src="calc.js"></script>
+</body>
+
+</html>

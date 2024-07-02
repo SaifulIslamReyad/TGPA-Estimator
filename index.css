@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 5px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto 30px;
+    background-color: #28a745;
+    border-radius: 4px;
+}
+h1 p{
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown {
+    margin-bottom: 30px;
+}
+
+.dropdown label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.dropdown select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    height: 40px;
+}
+
+.dropdown select:hover {
+    background-color: #fff;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #137628;
+}
+
+.help-icon {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 34px;
+    color: #3b28a7;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.help-icon:hover {
+    color: #446f9a;
+}
+
+
+.custom-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.custom-link a {
+    color: #198131;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.custom-link a:hover {
+    text-decoration: underline;
+}

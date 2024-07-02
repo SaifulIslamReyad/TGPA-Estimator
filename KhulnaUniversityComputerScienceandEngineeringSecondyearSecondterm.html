@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TGPA Calculator</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Term CGPA Estimator <p>(Based on your expected marks for each subject)</p>
+        </h1>
+        <form id="cgpaForm">
+
+            <div class="subject">
+                <label for="mark11">Algorithms <p class="credit"> Credit <span class="num"> 3.00 </span> </p>
+                </label>
+                <input type="number" placeholder="Your estimated marks" id="mark11" required>
+            </div>
+            <div class="subject">
+                <label for="mark12">Algorithms Laboratory <p class="credit"> Credit <span class="num"> 1.50 </span> </p>
+                </label>
+                <input type="number" placeholder="Your estimated marks" id="mark12" required>
+            </div>
+            <div class="subject">
+                <label for="mark13">Computer Architecture <p class="credit"> Credit <span class="num"> 3.00 </span> </p>
+                </label>
+                <input type="number" placeholder="Your estimated marks" id="mark13" required>
+            </div>
+            <div class="subject">
+                <label for="mark14">Computer Architecture Laboratory <p class="credit">
+                        Credit <span class="num"> 1.00 </span> </p>
+                </label>
+                <input type="number" placeholder="Your estimated marks" id="mark14" required>
+            </div>
+            <div class="subject">
+                <label for="mark15">Database Systems <p class="credit"> Credit <span class="num"> 3.00 </span> </p>
+                </label>
+                <input type="number" placeholder="Your estimated marks" id="mark15" required>
+            </div>
+            <div class="subject">
+                <label for="mark16">Database Systems Project <p class="credit"> Credit <span class="num"> 1.50
+                        </span> </p>
+                </label>
+                <input type="number" placeholder="Your estimated marks" id="mark16" required>
+            </div>
+            <div class="subject">
+                <label for="mark17">Digital Electronics <p class="credit"> Credit <span class="num"> 2.00 </span> </p>
+                </label>
+                <input type="number" placeholder="Your estimated marks" id="mark17" required>
+            </div>
+            <div class="subject">
+                <label for="mark18">Vector Analysis, Complex Variable <p class="credit"> Credit
+                        <span class="num"> 3.00 </span>
+                    </p>
+                </label>
+                <input type="number" placeholder="Your estimated marks" id="mark18" required>
+            </div>
+            <button id="calcu" type="button">CALCULATE CGPA</button>
+        </form>
+        <div id="result"></div>
+        <a href="Q.html" class="help-icon" title="How it works?">
+            <i class="fas fa-question-circle"></i>
+        </a>
+    </div>
+    <script src="script.js"></script>
+    <script src="calc.js"></script>
+</body>
+
+</html>
